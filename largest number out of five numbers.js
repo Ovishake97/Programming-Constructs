@@ -1,0 +1,13 @@
+let num1 = Math.floor(100+Math.random()*900);
+let num2 = Math.floor(100+Math.random()*900);
+let num3 = Math.floor(100+Math.random()*900);
+let num4 = Math.floor(100+Math.random()*900);
+let num5 = Math.floor(100+Math.random()*900);
+let numberArray =Array();
+numberArray.push(num1);
+numberArray.push(num2);
+numberArray.push(num3);
+numberArray.push(num4);
+numberArray.push(num5);
+numberArray.sort(function(a,b){return a-b});
+console.log("Largest number "+numberArray[4]);
